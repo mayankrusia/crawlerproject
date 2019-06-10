@@ -30,6 +30,6 @@ public class JsonReaderAndValidator {
 	}
 
 	public String getNodeAddress(JSONObject nodeDetails) {
-		return nodeDetails.get("address").toString();
+		return nodeDetails.get(Constants.JSON_KEY_ADDRESS).toString();
 	}
 }
